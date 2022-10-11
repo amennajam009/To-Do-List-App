@@ -8,4 +8,6 @@ btn.addEventListener('click',()=>{
         alert('Enter the Valid')
         return;
     }
+
+    let div=document.createElement('div')
 })
