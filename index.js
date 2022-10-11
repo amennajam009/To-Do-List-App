@@ -10,5 +10,17 @@ btn.addEventListener('click',()=>{
   }
 
   creatediv.innerHTML=`
-  <h3>${work}</h3>      `
+  <h3>${title}</h3>  
+  <ul>
+  <li>${work}</li>
+  <li>${work}</li>
+  <li>${work}</li>
+  <li>${work}</li>
+  <li>${work}</li>
+  <li>${work}</li>
+  <li>${work}</li>
+  <li>${work}</li>
+  <li>${work}</li>
+  
+  </ul>    `
 })
