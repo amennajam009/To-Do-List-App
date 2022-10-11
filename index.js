@@ -1,8 +1,8 @@
 let btn=document.querySelector('.btn')
 
 btn.addEventListener('click',()=>{
-    let title=document.querySelector('.title').value
-    let work=document.querySelector('.work').value
+    let title=document.querySelector('.title').value;
+    let work=document.querySelector('.work').value;
     let createnotes=querySelector('.NotesContainer');
     if(title==='' || work===''){
         alert('Enter the Valid')
@@ -13,7 +13,7 @@ btn.addEventListener('click',()=>{
     div.classList.add('col-md-4')
 
     div.innerHTML= `
-<div class="mb-3">
+ <div class="mb-3">
  <h3>${title}</h3>
  <textarea class="form-control text " placeholder="Enter Your Work" name="" id="" rows="7">${work}</textarea>
  <button type = "button" class = "btn del" id = "delete-all-btn">
