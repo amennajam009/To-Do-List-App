@@ -3,7 +3,7 @@ let btn=document.querySelector('.btn')
 btn.addEventListener('click',()=>{
   let title=document.querySelector('.title').value;
   let work=document.querySelector('.work').value;
-  let createNotes=document.querySelector('. NotesContainer');
+  let createlist=document.querySelector('.NotesContainer');
    
   if(title===''|| work===''){
     alert('Stupid Fill something');
@@ -14,7 +14,16 @@ btn.addEventListener('click',()=>{
   div.innerHTML=`
   <div class="mb-3">
   <h3>${title}</h3>  
-  <textarea class="form-control text " placeholder="Enter Your Work" name="" id="" rows="7">${work}</textarea>
+  <ol class="form-control text " placeholder="Enter Your Work" name="" id="" rows="8">
+  
+  <li>${work}</li>
+  <li>${work}</li>
+  <li>${work}</li>
+  <li>${work}</li>
+  <li>${work}</li>
+  
+  </ol>
+ 
   <button type = "button" class = "btn del" id = "delete-all-btn">
  <span><i class = "fas fa-trash"></i></span>
  Delete All
@@ -26,5 +35,5 @@ div.addEventListener('click',()=>{
   div.remove()
 })
 
-createNotes.append(div)
+createlist.append(div)
 })
