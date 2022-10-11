@@ -6,7 +6,7 @@ btn.addEventListener('click',()=>{
   let createlist=document.querySelector('.NotesContainer');
    
   if(title===''|| work===''){
-    alert('Stupid Fill something');
+    alert('Stupid Fill something....!');
   }
 
   let div=document.createElement('div')
