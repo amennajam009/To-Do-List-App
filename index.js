@@ -10,6 +10,7 @@ btn.addEventListener('click',()=>{
     }
 
     let div=document.createElement('div')
+    div.classList.add('col-md-4')
 
     div.innerHTML= `
 <div class="mb-3">
@@ -28,7 +29,7 @@ div.querySelector('.del')
 div.addEventListener('click',()=>{
  div.remove()
 })
-CreateNotes.append(div)
+createnotes.append(div)
   
   // console.log(work)
 
