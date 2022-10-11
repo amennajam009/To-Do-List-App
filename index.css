@@ -21,7 +21,7 @@
 } */
 
 body{
-    background-image: url(pic/Coping\ with\ Adversity_\ New\ psychological\ research\ from\ Teachers\ College.jfif);
+    background-image: url(pic/Background\ e\ sertifikat\ certificate\ sertif.jfif);
     width: 100%;
     height: 100vh;
     background-size: cover;
@@ -29,4 +29,7 @@ body{
 }
 .title{
     background-color: gray;
+}
+.btn{
+   
 }
