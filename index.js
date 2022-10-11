@@ -14,7 +14,7 @@ btn.addEventListener('click',()=>{
   div.innerHTML=`
   <div class="mb-3">
   <h3>${title}</h3>  
-  <ol class="form-control text " placeholder="Enter Your Work" name="" id="" rows="8">
+  <ol class="form-control text " placeholder="Enter Your Work" name="" id="" rows="8" width="180px">
   
   <li>${work}</li>
   <li>${work}</li>
