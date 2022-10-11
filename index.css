@@ -1,11 +1,11 @@
-h1{
+/* h1{
  display: flex;
  justify-content: center;
  margin-top: 25px;
  font-size: 60px;
-}
+} */
 
-.first{
+/* .first{
     max-width: 1180px;
  
   padding: 18px;
@@ -18,4 +18,15 @@ h1{
 
 .third{
     max-width: 1150px;
+} */
+
+body{
+    background-image: url(pic/Coping\ with\ Adversity_\ New\ psychological\ research\ from\ Teachers\ College.jfif);
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+.title{
+    background-color: gray;
 }
